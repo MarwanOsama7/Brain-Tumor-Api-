@@ -1,0 +1,4 @@
+flask
+Gunicorn
+opencv-python
+joblib
