@@ -6,7 +6,11 @@ from flask import Flask, request, jsonify
 
 app = Flask(__name__)
 
-@app.route('/', methods=["post"])
+@app.route('/')
+def myroute():
+    return "hellow marwan"
+
+@app.route('/prediction', methods=["post"])
 def index():
     # loading the model
     loaded_model = load("brain_tumot_svm.h5")
