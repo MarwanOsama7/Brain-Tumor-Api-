@@ -2,4 +2,4 @@ flask
 Gunicorn
 opencv-python
 joblib
-sklearn
+scikit-learn
